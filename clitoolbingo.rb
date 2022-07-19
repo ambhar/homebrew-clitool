@@ -9,7 +9,7 @@ class Clitoolbingo < Formula
     license "MIT"
 
     def install
-      virtualenv_install_with_resources
+      # virtualenv_install_with_resources
       system Formula["python@3.x"].opt_bin/"python3", *Language::Python.setup_install_args(prefix)
 
       # ENV.deparallelize  # if your formula fails when building in parallel
