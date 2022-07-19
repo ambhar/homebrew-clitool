@@ -1,11 +1,11 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Clitool < Formula
+class Clitoolbingo < Formula
     desc "clitool"
     homepage "https://github.com/ambhar/clitool"
-    url "https://github.com/ambhar/clitool/archive/refs/tags/v0.0.2.tar.gz"
-    sha256 "ae3931c81931a7c5f1746b9ca6d67c2d3cd0f767419b53d68143dcf2d4b04918"
+    url "https://github.com/ambhar/clitoolbingo/archive/refs/tags/v5.0.tar.gz"
+    sha256 "4b1ff2ce28965ec915d56f9531c1db0be44e77641528d78f89d49b9606f79ae1"
     license "MIT"
   
     # depends_on "cmake" => :build
