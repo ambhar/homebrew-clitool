@@ -3,10 +3,10 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Clitool < Formula
     desc "clitool"
-    homepage ""
+    homepage "https://github.com/ambhar/clitool"
     url "https://github.com/ambhar/clitool/archive/refs/tags/v0.0.2.tar.gz"
     sha256 "ae3931c81931a7c5f1746b9ca6d67c2d3cd0f767419b53d68143dcf2d4b04918"
-    license ""
+    license "MIT"
   
     # depends_on "cmake" => :build
   
