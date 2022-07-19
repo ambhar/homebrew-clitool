@@ -10,7 +10,7 @@ class Clitoolbingo < Formula
 
     def install
       # virtualenv_install_with_resources
-      system Formula["python@3.8.10"].opt_bin/"python3", *Language::Python.setup_install_args(prefix)
+      system Formula["python@3.8"].opt_bin/"python3", *Language::Python.setup_install_args(prefix)
       # ENV.deparallelize  # if your formula fails when building in parallel
 
       # Remove unrecognized options if warned by configure
