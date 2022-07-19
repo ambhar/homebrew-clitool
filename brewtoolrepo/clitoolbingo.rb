@@ -5,7 +5,7 @@ class Clitoolbingo < Formula
     desc "clitool"
     homepage "https://github.com/ambhar/clitool"
     url "https://github.com/ambhar/clitoolbingo/archive/refs/tags/v5.0.tar.gz"
-    sha256 "4b1ff2ce28965ec915d56f9531c1db0be44e77641528d78f89d49b9606f79ae1"
+  sha256 "4b1ff2ce28965ec915d56f9531c1db0be44e77641528d78f89d49b9606f79ae1"
     license "MIT"
   
     # depends_on "cmake" => :build
