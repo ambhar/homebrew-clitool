@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 package_name = 'huma'
 
 setup(
-    name='CLI',
+    name='clibingo',
     version='1.0',
     description='Huma CLI Tool',
     author='amol',
