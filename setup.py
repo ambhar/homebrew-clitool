@@ -13,7 +13,6 @@ setup(
     author_email='amol@snakescript.com',
     maintainer='amol@snakescript.com',
     maintainer_email='amol@snakescript.com',
-    packages=find_packages(),
     include_package_data=True,
     install_requires=[
         'click',
