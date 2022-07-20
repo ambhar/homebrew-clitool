@@ -4,8 +4,8 @@
 class Clitoolbingo < Formula
     desc "clitoolbingo"
     homepage "https://github.com/ambhar/clitoolbingo"
-    url "https://github.com/ambhar/clitoolbingo/archive/refs/tags/v5.0.tar.gz"
-  sha256 "4b1ff2ce28965ec915d56f9531c1db0be44e77641528d78f89d49b9606f79ae1"
+    url "https://github.com/ambhar/clitoolbingo/archive/refs/tags/v1.1.tar.gz"
+    sha256 "d62c7eda842855fb2e2176d78d392e3b85d7e5d9e2e51fcf9ca7aab25cb8db73"
     license "MIT"
 
     resource "click" do
