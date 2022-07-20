@@ -8,6 +8,11 @@ class Clitoolbingo < Formula
   sha256 "4b1ff2ce28965ec915d56f9531c1db0be44e77641528d78f89d49b9606f79ae1"
     license "MIT"
 
+    resource "click" do
+      url "https://files.pythonhosted.org/packages/59/87/84326af34517fca8c58418d148f2403df25303e02736832403587318e9e8/click-8.1.3.tar.gz"
+      sha256 "7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e"
+    end
+
     def install
       # virtualenv_install_with_resources
       # system Formula["python@3.8"].opt_bin/"python3", *Language::Python.setup_install_args(prefix)
