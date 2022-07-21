@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-require_relative "custom_download_strategy"
+require_relative "lib/custom_download_strategy"
 
 class Clitoolbingo < Formula
     include Language::Python::Virtualenv
