@@ -1,13 +1,13 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-require_relative "download_strategy"
+require_relative "custom_download_strategy"
 
 class Clitoolbingo < Formula
     include Language::Python::Virtualenv
     desc "clitoolbingo"
     homepage "https://github.com/ambhar/clitoolbingo"
-    url "https://github.com/ambhar/clitoolbingo/archive/refs/tags/v5.1.tar.gz"
+    url "https://github.com/ambhar/clitoolbingo/archive/refs/tags/v5.1.tar.gz", :using => :github_private_release
     # sha256 "15a48188efcc9a4cc0cab907523c6e2e935662c1e24c64fe7e1b08cc52cc0f77"
     license "MIT"
     depends_on "python@3.8"
