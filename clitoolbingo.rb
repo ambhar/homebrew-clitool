@@ -16,15 +16,5 @@ class Clitoolbingo < Formula
 
     def install
       virtualenv_install_with_resources
-      # virtualenv_install_with_resources
-      # system Formula["python@3.8"].opt_bin/"python3", *Language::Python.setup_install_args(prefix)
-      # system Formula["python@3.9"].opt_bin/"python3", *Language::Python.setup_install_args(prefix)
-      # system("python setup.py install")
-      # ENV.deparallelize  # if your formula fails when building in parallel
-
-      # Remove unrecognized options if warned by configure
-      # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-      # system "./configure", *std_configure_args, "--disable-silent-rules"
-      # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     end
   end
