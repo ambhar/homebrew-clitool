@@ -8,7 +8,7 @@ class Clitoolbingo < Formula
     desc "clitoolbingo"
     homepage "https://github.com/ambhar/clitoolbingo"
     url "https://github.com/ambhar/clitoolbingo/archive/refs/tags/v5.2.tar.gz", :using => :github_private_release
-    # sha256 "15a48188efcc9a4cc0cab907523c6e2e935662c1e24c64fe7e1b08cc52cc0f77"
+    sha256 "15a48188efcc9a4cc0cab907523c6e2e935662c1e24c64fe7e1b08cc52cc0f77"
     license "MIT"
     depends_on "python@3.8"
     resource "click" do
