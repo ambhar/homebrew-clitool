@@ -5,8 +5,8 @@ class Clitoolbingo < Formula
     include Language::Python::Virtualenv
     desc "clitoolbingo"
     homepage "https://github.com/ambhar/clitoolbingo"
-    url "https://github.com/ambhar/clitoolbingo/archive/refs/tags/v1.1.tar.gz"
-    sha256 "d62c7eda842855fb2e2176d78d392e3b85d7e5d9e2e51fcf9ca7aab25cb8db73"
+    url "https://github.com/ambhar/clitoolbingo/archive/refs/tags/v5.1.tar.gz"
+    sha256 "15a48188efcc9a4cc0cab907523c6e2e935662c1e24c64fe7e1b08cc52cc0f77"
     license "MIT"
     depends_on "python@3.9"
     resource "click" do
